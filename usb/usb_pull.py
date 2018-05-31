@@ -8,6 +8,7 @@
 import os
 import re
 import shutil
+from usb import *
 
 # função para encontrar os arquivos
 
