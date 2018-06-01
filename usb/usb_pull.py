@@ -94,7 +94,7 @@ if __name__ == '__main__':
         for fileset in job['FileSet']:
             print("copy_files('{}', '{}', '{}')".format(fileset[1], fileset[0], job['Storage']))
             copy_files(fileset[1], fileset[0], job['Storage'])
-    usb()        
+            usb()        
 
 # copia para a unidade USB indicada, ou para alguma pasta 
 
